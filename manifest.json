@@ -1,0 +1,38 @@
+{
+    "manifest": "1",
+    "client_id": "1089553484",
+    "version": "1.0.0",
+    "elements": [
+        {
+            "name": "Blog Feed",
+            "path": "files",
+            "version": "1.0.0",
+            "settings": {
+                "config": {
+                    "autopop": true
+                },
+                "properties": [
+                    {
+                        "type": "group",
+                        "name": "settings",
+                        "label": "Settings",
+                        "properties": [
+                            {
+                                "name": "url",
+                                "type": "string",
+                                "label": "URL"
+                            },
+                            {
+                                "name": "nPosts",
+                                "label": "Number of Posts",
+                                "default": 5,
+                                "type": "int",
+                                "min": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
